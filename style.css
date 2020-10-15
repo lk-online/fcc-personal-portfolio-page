@@ -1,3 +1,14 @@
+@media all and (max-width:768px) {
+    nav li {
+        padding: 0px!important;
+    }
+    #projects div {
+        flex-basis: 45%!important;
+        min-width: 350px!important;
+        margin: 0px 5px 12px!important;
+    }
+}
+
 body {
     display: flex;
     flex-wrap: wrap;
@@ -45,7 +56,7 @@ nav li:hover {
     box-shadow: 0px 0px 30px #150940;
     background-color: #F2E74B;
     outline: 2px solid #F2C849;
-    outline-offset: 3px;
+    box-shadow: 0px 0px 30px #150940;
 }
 
 a {
@@ -55,11 +66,6 @@ a {
 nav a {
     font-size: 2em;
     color: #150940;
-}
-
-nav li:hover {
-    box-shadow: 0px 0px 30px #150940;
-    background-color: #F2E74B;
 }
 
 #welcome-section {
@@ -76,6 +82,7 @@ nav li:hover {
 h1 {
     font-size: 3em;
     color: #F2E74B;
+    text-align: center;
 }
 
 h2 {
@@ -128,6 +135,7 @@ h2 {
     height: 8vh;
     align-items: center;
     display: flex;
+    align-self: flex-end;
 }
 
 #projects a:hover {
@@ -148,6 +156,8 @@ h2 {
 
 #profile p {
     font-size: 2em;
+    padding: 0px 5px;
+    text-align: center;
 }
 
 #profile a {
@@ -164,7 +174,6 @@ h2 {
 
 #profile li {
     list-style: none;
-    width: 100px;
 }
 
 #profile ul {
